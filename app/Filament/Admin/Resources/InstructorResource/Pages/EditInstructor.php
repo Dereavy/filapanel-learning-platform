@@ -1,0 +1,18 @@
+<?php
+
+namespace App\Filament\Admin\Resources\InstructorResource\Pages;
+
+use App\Filament\Admin\Resources\InstructorResource;
+use Filament\Resources\Pages\EditRecord;
+
+class EditInstructor extends EditRecord
+{
+    protected static string $resource = InstructorResource::class;
+
+    protected function getHeaderActions(): array
+    {
+        return [
+
+        ];
+    }
+}
